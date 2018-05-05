@@ -1,0 +1,20 @@
+$(document).ready(()=>{
+$('#home').click(()=>{
+alert('no home page added yet click on every button to see its functionality')
+})
+$(".me").mouseenter(()=>{
+ $(".me").css("background-color","#F23A3A")
+})
+$("#news").click(()=>{
+   $(".hover").hide("5000")
+})
+$("#news").mouseenter(()=>{
+    $(".here").css("background-color","#F23A3A")
+   })
+$("#contact").click(()=>{
+$(".hover").css("color","blue")
+})
+$("#contact").dblclick(()=>{
+    $(".to").css("background-color","#F23A3A")
+   })
+})
